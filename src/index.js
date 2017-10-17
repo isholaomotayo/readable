@@ -4,7 +4,7 @@ import App from './components/App';
 import {createStore, applyMiddleware, compose} from 'redux'
 import {Provider} from 'react-redux'
 import reducer from './reducers'
-import '../node_modules/font-awesome/css/font-awesome.min.css';
+import 'font-awesome/css/font-awesome.css'
 import {BrowserRouter} from 'react-router-dom'
 import thunk from 'redux-thunk'
 

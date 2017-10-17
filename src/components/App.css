@@ -59,7 +59,7 @@ body *::before {
 body {
   width: 80%;
   margin: auto;
-  background: url('/assets/bg.jpg');
+  background: url('../bg.jpg');
 
 }
 

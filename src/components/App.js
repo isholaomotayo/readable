@@ -6,6 +6,8 @@ import Posts from './Posts'
 import {Link, Route, withRouter} from 'react-router-dom'
 import './App.css';
 import * as server from '../utils';
+import logo from '../readableLogo.jpg'
+
 
 
 class App extends Component {
@@ -24,7 +26,7 @@ class App extends Component {
 
           <ul className="mainmenu ">
             <Link to='/'>
-              <div className="logo"><img src="/assets/readableLogo.jpg" alt="logo"/></div>
+              <div className="logo"><img src={logo} alt="logo"/></div>
             </Link>
             {
               categories.map((menu, i) =>
@@ -38,15 +40,10 @@ class App extends Component {
           </ul>
         </nav>
         <div className="container">
-          <Route exact path='/'
-                 render={(props) => (<PostIndex {...props}  />)}
-          />
-          <Route exact path='/:category/:id'
-                 render={(props) => (<Posts/>)}
-          />
-          <Route exact path='/:category'
-                 render={(props) => (<PostIndex  {...props} />)}
-          />
+          <Route exact path='/' component={PostIndex}/>
+          <Route exact path='/readable' component={PostIndex}/>
+          <Route exact path='/:category/:id' component={Posts}/>
+          <Route exact path='/:category' component={PostIndex}/>
         </div>
       </div>
     );

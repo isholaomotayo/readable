@@ -1,11 +1,13 @@
 {
-  "main.css": "static/css/main.9ae6c27e.css",
-  "main.css.map": "static/css/main.9ae6c27e.css.map",
-  "main.js": "static/js/main.f2322c0d.js",
-  "main.js.map": "static/js/main.f2322c0d.js.map",
+  "main.css": "static/css/main.ca68e8df.css",
+  "main.css.map": "static/css/main.ca68e8df.css.map",
+  "main.js": "static/js/main.fd820bdb.js",
+  "main.js.map": "static/js/main.fd820bdb.js.map",
+  "static\\media\\bg.jpg": "static/media/bg.06dcd16f.jpg",
   "static\\media\\fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
   "static\\media\\fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static\\media\\fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static\\media\\fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
-  "static\\media\\fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff"
+  "static\\media\\fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
+  "static\\media\\readableLogo.jpg": "static/media/readableLogo.4764f770.jpg"
 }
