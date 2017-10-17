@@ -1,5 +1,7 @@
 ## Readable
 
+Demo : https://isholaomotayo.github.io/readable/
+
 The Readable Project is a dynamic post management application built on React and Redux
 
 The Readable app makes use of a Node JS backend which can be download from [https://github.com/udacity/reactnd-project-readable-starter](here)
@@ -13,6 +15,8 @@ The Readable app makes use of a Node JS backend which can be download from [http
 1. navigate to the project repository with `cd reactReadable`
 1. Install the requirements from the included package.json file: `npm install`
 1. start the app with `npm start`
+
+
 
 
 ![alt text](./readable.gif "App screenshot")
